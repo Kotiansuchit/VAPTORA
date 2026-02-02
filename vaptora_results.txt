@@ -1,0 +1,17 @@
+
+[*] Banner Grabbing
+[INFO] Server Banner: nginx (LOW)
+
+[*] Security Headers Check
+[-] Missing X-Frame-Options (MEDIUM)
+[-] Missing Content-Security-Policy (MEDIUM)
+[-] Missing X-Content-Type-Options (MEDIUM)
+
+[*] Clickjacking Test
+[-] Clickjacking Possible (HIGH)
+
+[*] HTTP Methods Check
+[INFO] Allowed:  (LOW)
+
+[*] Reflected XSS Test
+[+] No reflected XSS detected with tested payloads (LOW)
